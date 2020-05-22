@@ -1,0 +1,67 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, td, th {  
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th, td {
+  padding: 10px;
+}
+
+#existing-list {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#add-form-headings {
+  background-color: #63b4cf;
+  color: white;
+}
+
+#add-form-table-wrapper {
+	display: none;
+}
+
+#add-button {
+   display: inline-block;
+   width: 100%;       /* set to 100% */
+   height: 100%;      /* set to 100% */
+   margin-bottom: 0.5em;
+   padding-top: .6em;
+   padding-bottom: .6em;
+   color: white;
+   background-color: #aaabbb;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.control-button {
+	display: inline-block;
+	background-color: #aaabbb;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+	display: inline-block;
+	font-size: 10px;
+	width: 100%;
+}
+
+input.edit{
+	width: 150px;
+}
+
+h1 {
+	text-align: center;
+}
+
+body {
+	padding: 0 50px;
+}
+
+.edit {
+	display: none;
+}
